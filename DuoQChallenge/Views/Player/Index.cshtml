@@ -1,0 +1,38 @@
+﻿@model List<DuoQChallenge.Models.Player>
+
+<h1>Players</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Player</th>
+            <th>Role</th>
+            <th>Account</th>
+            <th>Elo</th>
+            <th>Wins</th>
+            <th>Loses</th>
+            <th>Winrate</th>
+            <th>OPGG</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @{var i=1;};
+        @foreach (var player in Model)
+        {
+            <tr>
+                <td>@i</td>
+                <td>@Html.DisplayFor(m => player.Name)</td>
+                <td>@Html.DisplayFor(m => player.Role)</td>
+                <td>@Html.DisplayFor(m => player.Account)</td>
+                <td>@Html.DisplayFor(m => player.Elo)</td>
+                <td>@Html.DisplayFor(m => player.Wins)</td>
+                <td>@Html.DisplayFor(m => player.Loses)</td>
+                <td>@Html.DisplayFor(m => player.Winrate)%</td>
+                <td>@Html.DisplayFor(m => player.OpggUrl)</td>
+            </tr>
+            {i++;}
+        }
+    </tbody>
+</table>
