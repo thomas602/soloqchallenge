@@ -1,5 +1,6 @@
 using DuoQChallenge.Models;
 using Microsoft.EntityFrameworkCore;
+using Riot.Api.ApiClient.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<duoqchallengeContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("duoqchallengeContext"));
 });
 
+builder.Services.AddScoped<IRiotService, RiotService>( x => new RiotService(builder.Configuration["RiotBaseUrl"], builder.Configuration["RiotApiKey"]) );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
