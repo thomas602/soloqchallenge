@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuoQChallenge", "DuoQChallenge\DuoQChallenge.csproj", "{1DC76499-D20E-4215-AA58-2B6F9C65A874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuoQChallenge", "DuoQChallenge\DuoQChallenge.csproj", "{1DC76499-D20E-4215-AA58-2B6F9C65A874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riot.Api.ApiClient", "Riot.Api.ApiClient\Riot.Api.ApiClient.csproj", "{AC8EAE64-50ED-4C19-8D70-48DB4826B309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1DC76499-D20E-4215-AA58-2B6F9C65A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC76499-D20E-4215-AA58-2B6F9C65A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC76499-D20E-4215-AA58-2B6F9C65A874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8EAE64-50ED-4C19-8D70-48DB4826B309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8EAE64-50ED-4C19-8D70-48DB4826B309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8EAE64-50ED-4C19-8D70-48DB4826B309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8EAE64-50ED-4C19-8D70-48DB4826B309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

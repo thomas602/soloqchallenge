@@ -1,4 +1,5 @@
 is_global = true
+build_property.RefitInternalNamespace = DuoQChallenge
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -21,6 +22,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Thomas/Desktop/Programación/soloqchallenge/DuoQChallenge/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thomas/Desktop/Programación/soloqchallenge/DuoQChallenge/Views/Player/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thomas/Desktop/Programación/soloqchallenge/DuoQChallenge/Views/Player/Index.cshtml]

@@ -124,3 +124,12 @@ C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Debug\net
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Debug\net6.0\DuoQChallenge.pdb
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Debug\net6.0\DuoQChallenge.genruntimeconfig.cache
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Debug\net6.0\ref\DuoQChallenge.dll
+<<<<<<< HEAD
+=======
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\bin\Debug\net6.0\Refit.dll
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\bin\Debug\net6.0\Riot.Api.ApiClient.dll
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\bin\Debug\net6.0\Riot.Api.ApiClient.pdb
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Debug\net6.0\DuoQChallenge.MvcApplicationPartsAssemblyInfo.cs
+>>>>>>> Development

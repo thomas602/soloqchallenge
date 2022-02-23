@@ -5,11 +5,19 @@ C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\n
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\DuoQChallenge.runtimeconfig.json
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\DuoQChallenge.pdb
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
+<<<<<<< HEAD
+=======
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
+>>>>>>> Development
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+<<<<<<< HEAD
+=======
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+>>>>>>> Development
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
@@ -18,6 +26,10 @@ C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\n
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+<<<<<<< HEAD
+=======
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Refit.dll
+>>>>>>> Development
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\RiotApi.Net.RestClient.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
@@ -38,4 +50,9 @@ C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\n
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+<<<<<<< HEAD
+=======
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Riot.Api.ApiClient.dll
+C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\Riot.Api.ApiClient.pdb
+>>>>>>> Development
 C:\Users\Thomas\Desktop\Programación\soloqchallenge\DuoQChallenge\obj\Release\net6.0\PubTmp\Out\DuoQChallenge.deps.json
