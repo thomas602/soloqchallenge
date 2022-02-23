@@ -2,6 +2,10 @@
 
 <h1>Players</h1>
 
+<p>
+    <a asp-action="Create">Add Player</a>
+</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -18,7 +22,7 @@
     </thead>
 
     <tbody>
-        @{var i=1;};
+        @{var i=1;}
         @foreach (var player in Model)
         {
             <tr>

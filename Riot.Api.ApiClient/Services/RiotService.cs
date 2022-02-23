@@ -50,5 +50,25 @@ namespace Riot.Api.ApiClient.Services
             }
 
         }
+
+        public async Task<string> GetPlayerIdAsync(string inGameName)
+        {
+            try
+            {
+                var riotApi = RestService.For<IRiot>(_baseUrl);
+                var riotApiResponse = await riotApi.GetId(inGameName, _apiKey);
+                PlayerInfoDto playerInfoDto = null;
+
+                if (riotApiResponse != null)
+                    playerInfoDto = riotApiResponse;
+
+                return playerInfoDto.Id;
+            }
+            catch (Refit.ApiException ex)
+            {
+                var message = await ex.GetContentAsAsync<dynamic>();
+                throw new Exception((string)message.message);
+            }
+        }
     }
 }

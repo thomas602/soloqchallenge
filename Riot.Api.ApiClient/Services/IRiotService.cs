@@ -6,5 +6,6 @@ namespace Riot.Api.ApiClient.Services
     {
         Task<List<PlayerDto>> GetPlayerByIdAsync(string id);
         Task<PlayerDto> GetPlayerByIdSoloQAsync(string id);
+        Task<string> GetPlayerIdAsync(string inGameName);
     }
 }
