@@ -60,7 +60,7 @@ namespace DuoQChallenge.Controllers
                     Console.WriteLine("Message :{0} ", e.Message);
                 }
 
-                var playerAux = new Player() { 
+                var playerAux = new Player() {
                     Name = model.Name,
                     Role = model.Role,
                     Account = player.summonerName,
@@ -71,8 +71,14 @@ namespace DuoQChallenge.Controllers
                     OpggUrl = "https://las.op.gg/summoners/las/" + player.summonerName
                 };
 
-                _context.Add(playerAux);
-                _context.SaveChanges();
+                var alreadyExists = _context.Players.Where(x => x.Account == player.summonerName).FirstOrDefault();
+
+                if (alreadyExists != null)
+                {
+                    _context.Add(playerAux);
+                    _context.SaveChanges();
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             return View(model);
