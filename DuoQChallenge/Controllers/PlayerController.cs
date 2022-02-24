@@ -73,7 +73,7 @@ namespace DuoQChallenge.Controllers
 
                 var alreadyExists = _context.Players.Where(x => x.Account == player.summonerName).FirstOrDefault();
 
-                if (alreadyExists != null)
+                if (alreadyExists == null)
                 {
                     _context.Add(playerAux);
                     _context.SaveChanges();
@@ -83,64 +83,6 @@ namespace DuoQChallenge.Controllers
             }
             return View(model);
         }
-
-        //[HttpGet("get-riot-info/{userId}")]
-        //public async Task<Riot.Api.ApiClient.Dtos.PlayerDto> GetPlayerInfoFromRiot([FromRoute] string userId)
-        //{
-        //    // Call asynchronous network methods in a try/catch block to handle exceptions.
-        //    Riot.Api.ApiClient.Dtos.PlayerDto player = new Riot.Api.ApiClient.Dtos.PlayerDto();
-
-        //    try
-        //    {
-        //        var playerList = await _riotService.GetPlayerByIdAsync(userId);
-
-        //        foreach (Riot.Api.ApiClient.Dtos.PlayerDto item in playerList)
-        //        {
-        //            if(item.queueType == "RANKED_SOLO_5x5")
-        //                player = item;
-        //        }
-
-        //    }
-        //    catch (HttpRequestException e)
-        //    {
-        //        Console.WriteLine("\nException Caught!");
-        //        Console.WriteLine("Message :{0} ", e.Message);
-        //    }
-
-        //    return player;
-        //}
-
-        //[HttpPost("create-player")]
-        //public async Task<IActionResult> Create([FromBody]PlayerRequest p)
-        //{
-        //    if (string.IsNullOrEmpty(p.userId))
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    var playerInfo = await _riotService.GetPlayerByIdSoloQAsync(p.userId);
-
-        //    if(playerInfo == null)
-        //    {
-        //        return NotFound("No se encontro el jugador");
-        //    }
-
-        //    var player = new Player()
-        //    {
-        //        Name = p.name,
-        //        Role = p.role,
-        //        Account = playerInfo.summonerName,
-        //        Elo = playerInfo.tier + " " + playerInfo.leaguePoints + "LPS",
-        //        Wins = playerInfo.wins,
-        //        Loses = playerInfo.losses,
-        //        Winrate = (playerInfo.wins * 100) / (playerInfo.wins + playerInfo.losses),
-        //        OpggUrl = "https://las.op.gg/summoners/las/" + playerInfo.summonerName
-        //    };
-
-        //    _context.Add(player);
-        //    _context.SaveChanges();
-        //    return Ok();
-        //}
 
     }
     public class PlayerRequest

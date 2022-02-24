@@ -2,13 +2,17 @@
 
 <h1>Players</h1>
 
-<p>
-    <a asp-action="Create">Add Player</a>
-</p>
+<button type="button" class="btn btn-primary mb-2">
+    <a asp-action="Create" class="text-decoration-none link-light">Add Player</a>
+</button>
+
+<button type="button" class="btn btn-info mb-2">
+    <a asp-action="Update" class="text-decoration-none link-light">Update</a>
+</button>
 
 <table class="table">
-    <thead>
-        <tr>
+    <thead class="table-dark">
+        <tr class="text-center">
             <th>#</th>
             <th>Player</th>
             <th>Role</th>
@@ -22,10 +26,28 @@
     </thead>
 
     <tbody>
-        @{var i=1;}
+        @{
+            string rowClass = "";
+            var i=1;
+        }
         @foreach (var player in Model)
         {
-            <tr>
+            switch (i)
+            {
+                default:
+                    rowClass = "";
+                    break;
+                case 1:
+                    rowClass = "table-info";
+                    break;
+                case 2:
+                    rowClass = "table-success";
+                    break;
+                case 3:
+                    rowClass = "table-primary";
+                    break;
+            }
+            <tr class="text-center + @rowClass +">
                 <td>@i</td>
                 <td>@Html.DisplayFor(m => player.Name)</td>
                 <td>@Html.DisplayFor(m => player.Role)</td>
@@ -34,7 +56,7 @@
                 <td>@Html.DisplayFor(m => player.Wins)</td>
                 <td>@Html.DisplayFor(m => player.Loses)</td>
                 <td>@Html.DisplayFor(m => player.Winrate)%</td>
-                <td>@Html.DisplayFor(m => player.OpggUrl)</td>
+                <td><a target="_blank" href="@player.OpggUrl" class="text-decoration-none">@Html.DisplayFor(m => player.Account)</a></td>
             </tr>
             {i++;}
         }
